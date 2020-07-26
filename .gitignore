@@ -1,0 +1,17 @@
+# Veja https://help.github.com/articles/ignoring-files/ para mais informações sobre ignorar arquivos.
+
+# Dependências
+node_modules
+
+# Logs
+logs
+
+# Arquivos
+package-lock.json
+*.sqlite
+
+# MISC
+.DS_Store
+
+# Arquivos de ambiente
+.env
