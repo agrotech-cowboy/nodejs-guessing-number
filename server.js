@@ -8,7 +8,7 @@ const parser = require('body-parser');
 const { LogService } = require('./source/services');
 
 // Constantes
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1000;
 
 // Rotas
 const routes = require('./source/routes');
@@ -26,6 +26,6 @@ application
 
 const server = http.createServer(application);
 
-server.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT, () => {
     LogService.info(`O servidor está rodando na porta ${PORT}.`);
 });
