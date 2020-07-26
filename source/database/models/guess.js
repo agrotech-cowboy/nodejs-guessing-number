@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
         },
 
         value: {
-            type: DataTypes.INTEGER(4),
+            type: DataTypes.INTEGER,
             allowNull: false
         }
     }, {

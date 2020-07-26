@@ -4,14 +4,14 @@ const database = {
 
 	development: {
         environment: 'development',
-        username: 'root',
+        username: 'postgres',
         password: 'root',
-        storage: 'guessing.sqlite',
-        dialect: 'sqlite',
+        database: 'guessing',
+        dialect: 'postgres',
         options: {
             host: 'localhost',
-            dialect: 'sqlite',
-            storage: 'guessing.sqlite',
+            dialect: 'postgres',
+            database: 'guessing',
             pool: {
                 max: 5,
                 min: 0,
@@ -29,12 +29,12 @@ const database = {
         environment: 'production',
         username: process.env.DATABASE_USER,
         password: process.env.DATABASE_PASSWORD,
-        storage: process.env.DATABASE_NAME,
-        dialect: 'sqlite',
+        database: process.env.DATABASE_NAME,
+        dialect: 'postgres',
         options: {
-            dialect: 'sqlite',
+            dialect: 'postgres',
             host: process.env.DATABASE_HOST,
-            storage: process.env.DATABASE_NAME,
+            database: process.env.DATABASE_NAME,
             pool: {
                 max: 5,
                 min: 0,

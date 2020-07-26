@@ -10,7 +10,7 @@ module.exports = {
             },
     
             expected: {
-                type: DataTypes.INTEGER(4),
+                type: DataTypes.INTEGER,
                 allowNull: false
             },
 
@@ -45,7 +45,7 @@ module.exports = {
             },
 
             value: {
-                type: DataTypes.INTEGER(4),
+                type: DataTypes.INTEGER,
                 allowNull: false
             },
 
