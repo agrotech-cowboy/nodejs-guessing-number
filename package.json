@@ -4,7 +4,8 @@
     "description": "Camada de serviços para um jogo simples de adivinhação de números.",
     "main": "server.js",
     "scripts": {
-        "start": "nodemon server.js"
+        "start": "node server.js",
+        "dev": "nodemon server.js"
     },
     "keywords": [
         "divination",
