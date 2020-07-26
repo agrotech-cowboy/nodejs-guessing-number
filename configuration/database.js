@@ -8,6 +8,7 @@ const database = {
         password: 'root',
         database: 'guessing',
         dialect: 'postgres',
+        host: 'localhost',
         options: {
             host: 'localhost',
             dialect: 'postgres',
@@ -30,6 +31,7 @@ const database = {
         username: process.env.DATABASE_USER,
         password: process.env.DATABASE_PASSWORD,
         database: process.env.DATABASE_NAME,
+        host: process.env.DATABASE_HOST,
         dialect: 'postgres',
         options: {
             dialect: 'postgres',
