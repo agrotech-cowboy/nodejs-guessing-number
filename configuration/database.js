@@ -29,12 +29,12 @@ const database = {
         environment: 'production',
         username: process.env.DATABASE_USER,
         password: process.env.DATABASE_PASSWORD,
-        database: process.env.DATABASE_NAME,
+        storage: process.env.DATABASE_NAME,
         dialect: 'sqlite',
         options: {
             dialect: 'sqlite',
             host: process.env.DATABASE_HOST,
-            storage: 'guessing.sqlite',
+            storage: process.env.DATABASE_NAME,
             pool: {
                 max: 5,
                 min: 0,
