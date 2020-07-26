@@ -26,6 +26,6 @@ application
 
 const server = http.createServer(application);
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     LogService.info(`O servidor está rodando na porta ${PORT}.`);
 });
