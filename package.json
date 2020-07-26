@@ -1,5 +1,5 @@
 {
-    "name": "number-difination-backend",
+    "name": "number-guessing-backend",
     "version": "0.1.0",
     "description": "Camada de serviços para um jogo simples de adivinhação de números.",
     "main": "server.js",
