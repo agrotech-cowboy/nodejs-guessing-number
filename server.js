@@ -8,7 +8,7 @@ const parser = require('body-parser');
 const { LogService } = require('./source/services');
 
 // Constantes
-const PORT = process.env.PORT || 1000;
+const PORT = process.env.PORT || 3000;
 
 // Rotas
 const routes = require('./source/routes');
